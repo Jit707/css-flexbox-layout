@@ -1,1 +1,43 @@
-/* Start coding here */
+#container{
+    background-color: cadetblue;
+    flex-basis: 100% ;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+
+}
+
+.header{
+display: flex;
+justify-content: center;
+background-color: green;
+flex: 1;
+
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 610px;
+    align-items: center;
+    
+}
+
+
+.contentMiddle{
+    
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    height: 610px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: yellowgreen;
+   
+}
