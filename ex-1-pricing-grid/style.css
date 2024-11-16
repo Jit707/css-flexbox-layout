@@ -1,1 +1,42 @@
-/* Start coding here */
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    background-color: blanchedalmond;
+}
+
+.catSection , .dogSection, .fishSection{
+    background-color: burlywood;
+    flex-grow: 1;
+    width: 30px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center ;
+    margin: 20px 90px;
+}
+
+p{
+    width: 70%;
+    color: rgb(255, 241, 215);
+    font-weight: bold;
+}
+
+h1{
+    font-size: 50px ;
+}
+
+
+.catButton{
+margin: 30px;
+border-radius: 30px;
+border-style: solid ;
+border-width: 2px;
+border-color: rgb(255, 255, 255);
+background-color: rgb(66, 32, 9);
+padding: 20px 30px;
+color: beige;
+}
